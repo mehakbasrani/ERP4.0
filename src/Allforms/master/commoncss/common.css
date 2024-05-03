@@ -1,0 +1,31 @@
+.item_form{
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+}
+.item_form tr td input,.item_form tr td select{
+    width: 100%;
+}
+.ui.input {
+    width: 100%;
+    padding: 10px;
+    transition: all ease .5;
+}
+.ui.selection.dropdown {
+    width: 100%;
+    padding: 10px;
+}
+.ui.table td {
+    padding: 0;
+}
+.select_field{
+    padding: 10px;
+}
+.mr_10{
+    margin-right: 10px !important;
+}
+.pl_10{
+    padding-left:10px ;
+}
+/* Animations  */
+

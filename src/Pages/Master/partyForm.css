@@ -1,0 +1,9 @@
+/* styles.css */
+/* .borderless-table {
+  border-collapse: collapse;
+} */
+
+.borderless-table th,
+.borderless-table td {
+  border: none !important;
+}

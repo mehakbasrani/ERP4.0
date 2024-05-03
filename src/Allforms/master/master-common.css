@@ -1,0 +1,273 @@
+/* common css  */
+a{text-decoration: none;}
+
+
+/******* itemform *******/
+.item_form{
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+}
+.item_form tr td input,.item_form tr td select{
+    width: 100%;
+}
+.ui.input {
+    width: 100%;
+    padding: 10px;
+    transition: all ease .5;
+}
+.ui.selection.dropdown {
+    width: 100%;
+    padding: 10px;
+}
+.ui.table td {
+    padding: 0;
+}
+.select_field{
+    padding: 10px;
+}
+.mr_10{
+    margin-right: 10px !important;
+}
+.pl_10{
+    padding-left:10px ;
+    /* background: green; */
+}
+.right_box {
+    position: absolute;
+    right: 50px;
+    margin-top: -52px;
+    background: #f9fafb;
+    padding: 20px 30px;
+    border-radius: 10px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.right_box ul{
+    list-style: none;
+    padding-left: 0;
+}
+.right_box ul li{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+/******* Location form  *******/
+.main_head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.ui.table,.ui.tr{
+    border-top: none !important;
+}
+.center_box{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.mt_10{
+    margin-right: 10px !important;
+}
+.ui.celled.table,.ui.celled.table tr td,.ui.table thead th{
+    border: none;
+    border-left: none !important;
+}
+.plus{
+    color:'black';
+    width:30px !important;
+    height:30px !important;
+    border-radius:50%;
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+    padding-top: 10px  !important;
+}
+.close_btn{
+    width:30px !important;
+    height:30px !important;
+    border-radius:50%;
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+    padding-top: 15px  !important;
+    padding-left: 20px !important;
+
+}
+textarea{
+    width: 100%;
+    border: 1px solid rgba(34,36,38,.15);
+    padding: 10px;
+    resize: none;
+}
+textarea:focus-visible {
+    outline: none;
+}
+.p_10{
+    padding: 10px;
+}
+
+/****** styleform ******/
+
+.top_style{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.top_style .ui.input {
+    width: fit-content;
+}
+.styleHead h6 {
+    color: #2185d0;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    width: fit-content;
+}
+.styleHead h6::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #2185d0;
+    bottom: 0;
+    left: 10px;
+}
+.style_table .file_field input{
+    border: 0;
+    /* padding: 0; */
+}
+.tableRow_flex {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+}
+.upload_btn {
+    display: inline-block;
+    background: #4f46e5;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: all .5s ease;
+    border: 1px solid #4f46e5;
+}
+.upload_btn:hover{
+    background: #fff;
+    border: 1px solid #4f46e5;
+    color: #4f46e5;
+}
+.styleHead {
+    margin-bottom: 30px;
+}
+.file_field {
+    padding: 0 !important;
+}
+input[type="file"] {
+    padding: 0 !important;
+}
+
+.sketch img {
+    height: 300px;
+    width: 100%;
+}
+
+
+/******* unit form  *******/
+.main_head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.ui.table,.ui.tr{
+    border-top: none !important;
+}
+.center_box{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.mt_10{
+    margin-right: 10px !important;
+}
+.ui.celled.table,.ui.celled.table tr td,.ui.table thead th{
+    border: none;
+    border-left: none !important;
+}
+.plus{
+    color:'black';
+    width:30px !important;
+    height:30px !important;
+    border-radius:50%;
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+    padding-top: 10px  !important;
+}
+.close_btn{
+    width:30px !important;
+    height:30px !important;
+    border-radius:50%;
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+    padding-top: 15px  !important;
+    padding-left: 20px !important;
+
+}
+textarea{
+    width: 100%;
+    border: 1px solid rgba(34,36,38,.15);
+    padding: 10px;
+    resize: none;
+}
+textarea:focus-visible {
+    outline: none;
+}
+.p_10{
+    padding: 10px;
+}
+.plus_button {
+    background:transparent !important;
+    padding:0 !important;
+   }
+
+.tableStyle {
+    border: none !important;
+   }
+
+   .icons_cell{
+    width:50px;
+   }
+
+   .input_width{
+    width:100%;
+   }
+   .icons_cell{
+    width:50px;
+   };
+
+
+ /******* size for  *******/
+ .ui.label{
+    background: transparent !important;
+ }
+
+
+
+
+
+
+
+/* .ui.striped.table tr,
+.ui.striped.table td{
+    border: none;
+} */
+

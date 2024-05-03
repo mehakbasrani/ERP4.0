@@ -1,0 +1,118 @@
+.item_form {
+  max-width: 1000px;
+  width: 100%;
+  margin: 20px auto;
+}
+.item_form tr td input,
+.item_form tr td select {
+  width: 100%;
+}
+.ui.input {
+  /* width: 100%; */
+  padding: 10px;
+  transition: all ease 0.5;
+}
+.ui.selection.dropdown {
+  width: 100%;
+  padding: 10px;
+}
+.ui.table td {
+  padding: 5px;
+}
+.select_field {
+  padding: 30px;
+}
+.mr_10 {
+  margin-right: 10px !important;
+}
+.pl_10 {
+  padding-left: 10px;
+}
+/* Animations  */
+.formheader {
+  font-weight: 500;
+}
+.imgcell {
+  display: flex;
+}
+.avatar {
+  margin-top: 15px;
+}
+
+.select {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  padding: 10px 50px;
+  marginleft: 12px;
+  outline: none;
+  border-radius: 0.28571429rem;
+}
+ul {
+  list-style-type: none;
+}
+#sidebar {
+  width: 22rem;
+  border-right: solid 1px #e3e3e3;
+}
+#detail {
+  flex: 1;
+  padding: 2rem 4rem;
+  width: 100%;
+}
+.autocomplete {
+  width: 183.2px;
+  height: 37.6px;
+  overflow: hidden;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+}
+.auto {
+  margin: 50px;
+}
+.cardcon {
+  margin: 10px;
+}
+.labels {
+  font-weight: 900;
+  padding: 5px;
+}
+.sizecard {
+  display: flex;
+}
+.cdesc {
+  background-color: #f7f7f7;
+}
+.custom-table {
+  /* background-color: #f1c40f; */
+  /* color: #f7f7f7; */
+}
+.customgrid {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.mainscrollable {
+  max-height: 700px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.scrollable {
+  max-height: 270px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.bomscrollable {
+  max-height: 170px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+}
+.proddiv {
+  display: flex;
+}
+.itemscrollable {
+  max-height: 270px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.divtotal {
+  margin-top: 17px;
+}

@@ -1,0 +1,36 @@
+.navheading {
+  color: #2e5090;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.navcard {
+  text-decoration: none;
+  transition: 0.9s;
+}
+.navcard:hover {
+  color: #2e5090;
+  /* height: 300px; */
+}
+
+.navicon {
+  color: #2e5090;
+  padding-bottom: 3px;
+}
+.navicon2 {
+  color: #f5f5f5;
+}
+.navicon2:hover {
+  color: #2e5090;
+}
+.navheader {
+  padding-top: 10px;
+  font-family: "Lucida Console", "Courier New", Fantasy;
+}
+.sublinks {
+  display: hidden;
+  color: black;
+  text-decoration: none;
+
+  // transform: translateY(10px);
+  /* opacity: 0; */
+}

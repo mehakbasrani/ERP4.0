@@ -1,0 +1,79 @@
+.main_head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.ui.table,.ui.tr{
+    border-top: none !important;
+}
+.center_box{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.mt_10{
+    margin-right: 10px !important;
+}
+.ui.celled.table,.ui.celled.table tr td,.ui.table thead th{
+    border: none;
+    border-left: none !important;
+}
+.plus{
+    color:'black';
+    width:30px !important;
+    height:30px !important;
+    border-radius:50%;
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+    padding-top: 10px  !important;
+}
+.close_btn{
+    width:30px !important;
+    height:30px !important;
+    border-radius:50%;
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+    padding-top: 15px  !important;
+    padding-left: 20px !important;
+
+}
+textarea{
+    width: 100%;
+    border: 1px solid rgba(34,36,38,.15);
+    padding: 10px;
+    resize: none;
+}
+textarea:focus-visible {
+    outline: none;
+}
+.p_10{
+    padding: 10px;
+}
+.plus_button {
+    background:transparent !important;
+    padding:0 !important;
+   }
+
+.tableStyle {
+    border: none !important;
+   }
+
+   .icons_cell{
+    width:50px;
+   }
+
+   .input_width{
+    width:100%;
+   }
+
+
+
+
+
+
+/* .ui.striped.table tr,
+.ui.striped.table td{
+    border: none;
+} */

@@ -1,0 +1,9 @@
+.top_style{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.top_style .ui.input {
+    width: fit-content;
+}
